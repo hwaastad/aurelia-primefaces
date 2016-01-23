@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.configure = configure;
 
-function configure(frameworkConfig, configCallback) {
-  frameworkConfig.globalResources('attributes/button');
+function configure(config) {
+  config.globalResources('./attributes/button');
 }
 //# sourceMappingURL=index.js.map

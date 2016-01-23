@@ -1,3 +1,3 @@
-export function configure(frameworkConfig, configCallback) {
-  frameworkConfig.globalResources('attributes/button');
+export function configure(config) {
+  config.globalResources('./attributes/button');
 }
