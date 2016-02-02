@@ -1,13 +1,11 @@
 import {inject, customAttribute,bindable} from 'aurelia-framework';
-import 'jquery-ui';
-import 'primeui';
 
 @customAttribute('p-button')
 @inject(Element)
 export class ButtonDirective {
-  @bindable icon: String;
-  @bindable iconPos: String;
-  @bindable disabled: Boolean;
+  @bindable icon: string;
+  @bindable iconPos: string=undefined;
+  @bindable disabled: boolean;
 
   initialized: Boolean;
 

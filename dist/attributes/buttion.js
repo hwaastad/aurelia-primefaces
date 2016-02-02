@@ -12,10 +12,6 @@ function _defineDecoratedPropertyDescriptor(target, key, descriptors) { var _des
 
 var _aureliaFramework = require('aurelia-framework');
 
-require('jquery-ui');
-
-require('primeui');
-
 var ButtonDirective = (function () {
   var _instanceInitializers = {};
   var _instanceInitializers = {};
@@ -28,7 +24,9 @@ var ButtonDirective = (function () {
   }, {
     key: 'iconPos',
     decorators: [_aureliaFramework.bindable],
-    initializer: null,
+    initializer: function initializer() {
+      return undefined;
+    },
     enumerable: true
   }, {
     key: 'disabled',
