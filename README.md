@@ -2,6 +2,12 @@
 
 Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 
+## This project is still under development and not ready to be used in any way
+
+
+### List of current implementations
+* p-button
+
 ### Install
 
 1. In your project install the plugin via `jspm` with following command
