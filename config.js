@@ -18,11 +18,11 @@ System.config({
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
-    "primeui": "bower:primeui@3.0.0",
+    "primeui": "bower:primeui@3.0.1",
     "bower:jqueryui@1.11.4": {
       "jquery": "bower:jquery@2.2.0"
     },
-    "bower:primeui@3.0.0": {
+    "bower:primeui@3.0.1": {
       "fontawesome": "bower:fontawesome@4.5.0",
       "jquery": "bower:jquery@2.2.0",
       "jqueryui": "bower:jqueryui@1.11.4"
