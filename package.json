@@ -17,7 +17,16 @@
     "run-sequence": "^1.1.1",
     "vinyl-paths": "^1.0.0"
   },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwaastad/aurelia-primefaces.git"
+  },
   "jspm": {
+    "directories": {
+      "lib": "dist"
+    },
     "dependencies": {
       "primeui": "bower:primeui@^3.0.0"
     },
