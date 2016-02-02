@@ -6,6 +6,6 @@ Object.defineProperty(exports, '__esModule', {
 exports.configure = configure;
 
 function configure(config) {
-  config.aurelia.use.globalResources('./attributes/button');
+  config.aurelia.use.globalResources('./attributes/buttion');
 }
 //# sourceMappingURL=index.js.map
