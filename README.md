@@ -7,6 +7,10 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 
 ### List of current implementations
 * p-button
+* p-inputtext
+* p-inputtextarea
+* p-password
+* p-spinner
 
 ### Install
 
@@ -44,4 +48,4 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 4. Demo project not yet available
 
 
-See online [Demo](..........)
+See online [Demo](https://github.com/hwaastad/aurelia-primefaces-demo.git)
