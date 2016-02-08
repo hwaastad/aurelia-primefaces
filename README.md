@@ -6,11 +6,14 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 
 
 ### List of current implementations
+#### Attributes
 * p-button
 * p-inputtext
 * p-inputtextarea
 * p-password
 * p-spinner
+ 
+#### Elements
 
 ### Install
 
