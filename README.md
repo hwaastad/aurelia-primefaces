@@ -12,8 +12,11 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 * p-inputtextarea
 * p-password
 * p-spinner
- 
+
 #### Elements
+* p-panel
+* p-inputswitch
+* p-fieldset
 
 ### Install
 
@@ -34,7 +37,7 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
   <script src="jspm_packages/bower/primeui@3.0.1/primeui-min.js"></script>
   ...
 ```
-  
+
 3. Update  `main.js` in your `src` folder with following content:
 
   ```javascript
