@@ -29,12 +29,12 @@ Aurelia wrapper for [PrimeUI](http://www.primefaces.org/primeui/).
 2. Add needed styles an javascripts in index.html
 
   ```html
-  <link rel="stylesheet" href="jspm_packages/bower/primeui@3.0.1/themes/cupertino/theme.css">
+  <link rel="stylesheet" href="jspm_packages/bower/primeui@3.0.2/themes/cupertino/theme.css">
   <link rel="stylesheet" href="jspm_packages/bower/fontawesome@4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="jspm_packages/bower/primeui@3.0.1/primeui-min.css">
+  <link rel="stylesheet" href="jspm_packages/bower/primeui@3.0.2/primeui-min.css">
   <script src="jspm_packages/bower/jquery@2.2.0/dist/jquery.min.js"></script>
   <script src="jspm_packages/bower/jqueryui@1.11.4/jquery-ui.min.js"></script>
-  <script src="jspm_packages/bower/primeui@3.0.1/primeui-min.js"></script>
+  <script src="jspm_packages/bower/primeui@3.0.2/primeui-min.js"></script>
   ...
 ```
 
