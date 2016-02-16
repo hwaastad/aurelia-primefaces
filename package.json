@@ -28,7 +28,7 @@
       "lib": "dist"
     },
     "dependencies": {
-      "primeui": "bower:primeui@^3.0.0"
+      "primeui": "bower:primeui@^4.0.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
