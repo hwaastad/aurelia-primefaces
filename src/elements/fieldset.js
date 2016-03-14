@@ -23,10 +23,10 @@ export class FieldSetConmponent {
             toggleDuration: this.toggleDuration,
             collapsed: this.collapsed,
             beforeToggle: this.onBeforeToggle ? (event: Event, collapsed: boolean) => {
-                this.onBeforeToggle.next({ 'originalEvent': event, 'collapsed': collapsed });
+                this.onBeforeToggle({ 'originalEvent': event, 'collapsed': collapsed });
             } : null,
             afterToggle: this.onAfterToggle ? (event: Event, collapsed: boolean) => {
-                this.onAfterToggle.next({ 'originalEvent': event, 'collapsed': collapsed });
+                this.onAfterToggle({ 'originalEvent': event, 'collapsed': collapsed });
             } : null,
             enhanced: true
         });
