@@ -85,10 +85,10 @@ var FieldSetConmponent = (function () {
                 toggleDuration: this.toggleDuration,
                 collapsed: this.collapsed,
                 beforeToggle: this.onBeforeToggle ? function (event, collapsed) {
-                    _this.onBeforeToggle.next({ 'originalEvent': event, 'collapsed': collapsed });
+                    _this.onBeforeToggle({ 'originalEvent': event, 'collapsed': collapsed });
                 } : null,
                 afterToggle: this.onAfterToggle ? function (event, collapsed) {
-                    _this.onAfterToggle.next({ 'originalEvent': event, 'collapsed': collapsed });
+                    _this.onAfterToggle({ 'originalEvent': event, 'collapsed': collapsed });
                 } : null,
                 enhanced: true
             });

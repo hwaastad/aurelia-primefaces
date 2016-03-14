@@ -1,1 +1,1 @@
-{"version":3,"sources":["api/selectitem.js"],"names":[],"mappings":";;;;;;;;IAAa,UAAU,YAAV,UAAU;0BAAV,UAAU","file":"api/selectitem.js","sourcesContent":["export class SelectItem {\n    label: string;\n    value: any;\n}\n"],"sourceRoot":"/home/helge/Github/aurelia-primefaces/src"}
+{"version":3,"sources":["api/selectitem.js"],"names":[],"mappings":";;;;;;;;IAAa,UAAU,YAAV,UAAU;0BAAV,UAAU","file":"api/selectitem.js","sourcesContent":["export class SelectItem {\n    label: string;\n    value: any;\n}\n"],"sourceRoot":"/home/helge/GitHub/aurelia-primefaces/src"}
